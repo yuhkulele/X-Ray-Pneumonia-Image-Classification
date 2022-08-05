@@ -14,8 +14,8 @@ Providing a “second opinion” to medical professionals after initial diagnosi
 ## Dataset
 
 Dataset from Mendeley: https://data.mendeley.com/datasets/rscbjbr9sj/2
-![image](Images/Xraynormal.jpeg)
-![image](Images/Xraypne.jpeg)
+![image](Images/Xraynormal.jpeg=250x250)
+![image](Images/Xraypne.jpeg=250x250)
 
 
 We are working from a dataset of  5,863 X-Ray images in two categories (Pneumonia/Normal). The Chest X-ray images were selected from pediatric patients ages one to five years old from Guangzhou Women and Children’s Medical Center. 
@@ -40,6 +40,9 @@ Our first model is a dummy predictor model, that predicts based on the most freq
 
 Our next model was a baseline model using a Convolutional Neural Network(CNN). We created a basic CNN with only dense layers.  Compared to the dummy model, the baseline model was substantially better, with an accuracy of 89% and a recall of 90%. 
 
+## VGG19
+
+To create a comparison model, we used VGG19, a pretuned model with 19 layers in it, to analyze the data set. We used both the base VGG19 layer and with added layers for transfer learning. The VGG19 model performed extremely well, with both an accuracy and recall of over 97%, giving us a strong comparison model for our CNN modeling. 
 
 ## Further CNN Models and Results
 
