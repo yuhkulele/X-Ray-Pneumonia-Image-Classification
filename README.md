@@ -15,7 +15,7 @@ Providing a “second opinion” to medical professionals after initial diagnosi
 
 Dataset from Mendeley: https://data.mendeley.com/datasets/rscbjbr9sj/2
 ![image](Images/Xraynormal.jpeg)
-![image](ImagesXraypne.jpeg)
+![image](Images/Xraypne.jpeg)
 
 
 We are working from a dataset of  5,863 X-Ray images in two categories (Pneumonia/Normal). The Chest X-ray images were selected from pediatric patients ages one to five years old from Guangzhou Women and Children’s Medical Center. 
@@ -52,7 +52,7 @@ When we compared each of our models, we decided that CNN 6 is our strongest perf
 
 If we were to continue to improve this model, our next steps would be to address overfitting and try increasing image resolution. We could try adding more regularization or dropout layers to hopefully improve this model's ability to predict on unseen data. Additionally, we could better train our model given more data or with higher quality data. Our model is trained on images of 64 x 64 resolution. Increasing resolution could provide more details for the model to learn from at the cost of computational cost. Our training data set consisted of 4,173 images. One way to better train our model is to provide more data to our model through further image augmentation or additional X-ray images.
 
-![ConfusionFinal](./X-Ray-Pneumonia-Image-Classification/Images/ConfMat.png)
+![ConfusionFinal](Images/ConfMat.png)
 
 The goal of this project was to construct a CNN model to classify chest X-rays of pediatric patients and identify which X-rays showed indicators of pneumonia. This model could be used as a "second opinion" for doctors with the intent of catching all penumonia-positive patients. Since childhood pneumonia can be deadly if not treated, we focused on a model with the lowest false-negative rate.
 
