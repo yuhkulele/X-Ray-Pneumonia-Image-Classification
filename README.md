@@ -68,10 +68,6 @@ The goal of this project was to construct a CNN model to classify chest X-rays o
 
 Our final model had an overall accuracy of 86% and a recall of 0.98. Overfitting was one of the major hurdles in our modeling process which we addressed but did not manage eliminate from our models. On unseen data, our model correctly diagnosed 98% of all pneumonia-labeled X-rays. This model met our goal of reducing false-negative rate while improving on accuracy over previous model iterations.
 
-## Next Steps
-
-Improve model with additional techniques to address overfitting
-Test model on images of different quality
-Identify if there are particular X-rays that doctors are consistently missing that a neural network might be able to assist with
+Wtih any project, there is room for improvement and continued progress. Steps that we would like to take to tune our model include additional techniques to address overfitting, testing the model on images of different quality. amd Identifying if there are particular X-rays that doctors are consistently missing that a neural network might be able to assist with.
 
 To dive deeper into our project, please checkout our [Notebook](https://github.com/yuhkulele/X-Ray-Pneumonia-Image-Classification/blob/main/notebook.ipynb)
