@@ -14,9 +14,9 @@ Providing a “second opinion” to medical professionals after initial diagnosi
 ## Dataset
 
 Dataset from Mendeley: https://data.mendeley.com/datasets/rscbjbr9sj/2
-![image](tree/main/Images/Xraynormal.png)
-![image](main/ImagesXraypne.png)
-![image](.main/ImagesXraypne.png)
+![image](Images/Xraynormal.jpeg)
+![image](ImagesXraypne.jpeg)
+
 
 We are working from a dataset of  5,863 X-Ray images in two categories (Pneumonia/Normal). The Chest X-ray images were selected from pediatric patients ages one to five years old from Guangzhou Women and Children’s Medical Center. 
 The dataset of images was then screened and graded by two expert physicians and then verified by a third party for accuracy. 
@@ -34,13 +34,12 @@ We will iterate through different models and choose a model that is able to give
 ## Dummy Classifier
 
 Our first model is a dummy predictor model, that predicts based on the most frequent class(in this case pneumonia). The accuracy of this model is 74.3%. Since Dummy Classifier always chooses the most common class, it has a recall of 100%. 
-![Dummy](./Images/DummyConfusion.png)
+
 
 ## Baseline Model
 
 Our next model was a baseline model using a Convolutional Neural Network(CNN). We created a basic CNN with only dense layers.  Compared to the dummy model, the baseline model was substantially better, with an accuracy of 89% and a recall of 90%. 
-![AccuracyLine](./Images/AccuracyOverEpochs1.png)
-![RecallLine](./Images/RecallOverEpochs1.png)
+
 
 ## Further CNN Models and Results
 
