@@ -64,7 +64,7 @@ When we compared each of our models, we decided that CNN 6 is our strongest perf
 
 ![ConfusionFinal](Images/ConfMat.png)
 
-If we were to continue to improve this model, our next steps would be to address overfitting and try increasing image resolution. We could try adding more regularization or dropout layers to hopefully improve this model's ability to predict on unseen data. Additionally, we could better train our model given more data or with higher quality data. Our model is trained on images of 64 x 64 resolution. Increasing resolution could provide more details for the model to learn from at the cost of computational cost. Our training data set consisted of 4,173 images. One way to better train our model is to provide more data to our model through further image augmentation or additional X-ray images.
+If we were to continue to improve this model, our next steps would be to address overfitting and try increasing image resolution. We could try adding more regularization or dropout layers to hopefully improve this model's ability to predict on unseen data. Additionally, we could better train our model given more data or with higher quality data. Our model is trained on images of 64 x 64 resolution. Increasing resolution could provide more details for the model to learn from at the cost of computational time. Our training data set consisted of 4,173 images. One way to better train our model is to provide more data to our model through further image augmentation or additional X-ray images.
 
 ## Conclusion 
 
@@ -72,6 +72,6 @@ The goal of this project was to construct a CNN model to classify chest X-rays o
 
 Our final model had an overall accuracy of 86% and a recall of 0.98. Overfitting was one of the major hurdles in our modeling process which we addressed but did not manage eliminate from our models. On unseen data, our model correctly diagnosed 98% of all pneumonia-labeled X-rays. This model met our goal of reducing false-negative rate while improving on accuracy over previous model iterations.
 
-Wtih any project, there is room for improvement and continued progress. Steps that we would like to take to tune our model include additional techniques to address overfitting, testing the model on images of different quality. amd Identifying if there are particular X-rays that doctors are consistently missing that a neural network might be able to assist with.
+Wtih any project, there is room for improvement and continued progress. Steps that we would like to take to tune our model include additional techniques to address overfitting, testing the model on images of different quality, and identifying if there are particular X-rays that doctors are consistently missing that a neural network might be able to assist with.
 
-To dive deeper into our project, please checkout our [Notebook](https://github.com/yuhkulele/X-Ray-Pneumonia-Image-Classification/blob/main/notebook.ipynb)
+To dive deeper into our project, please checkout our [Notebook](https://github.com/yuhkulele/X-Ray-Pneumonia-Image-Classification/blob/main/notebook.ipynb)!
