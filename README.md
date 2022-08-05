@@ -30,7 +30,8 @@ The dataset included a Train, Test, and Validation folder. Due to the low level 
 ## Modeling
 
 We preprocessed images for modeling by using ImageDataGenerator to process images, dividing each image by 255 to adjust for greyscale, converting the image size to 64x64, and augmenting the data. 
-We will use Convolutional Neural Network(CNN) algorithms to process and learn from thousands of images and predict from new X-rays if a patient has pneumonia 
+We will use Convolutional Neural Network(CNN) algorithms to process and learn from thousands of images and predict from new X-rays if a patient has pneumonia.
+
 Key metrics in our model:
 
 •	Accuracy: Reliable predictions help medical professionals save time
