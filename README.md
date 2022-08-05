@@ -38,8 +38,8 @@ Our first model is a dummy predictor model, that predicts based on the most freq
 ## Baseline Model
 
 Our next model was a baseline model using a Convolutional Neural Network(CNN). We created a basic CNN with only dense layers.  Compared to the dummy model, the baseline model was substantially better, with an accuracy of 89% and a recall of 90%. 
-![AccuracyLine](/Images/AccuracyOverEpochs1.png)
-![RecallLine](/Images/RecallOverEpochs1.png)
+![AccuracyLine](./Images/AccuracyOverEpochs1.png)
+![RecallLine](./Images/RecallOverEpochs1.png)
 
 ## Further CNN Models and Results
 
