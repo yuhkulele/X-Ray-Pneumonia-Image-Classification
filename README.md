@@ -6,7 +6,7 @@ Presentation: https://docs.google.com/presentation/d/1T57NZcnFOQudURk4JyrwX-yk_2
 
 ## Background & Business Problem
 
-Pneumonia is responsible for more childhood deaths than any other infectious disease worldwide, and early diagnosis and treatment are critical for short-term and long-term health outcomes for patients. 
+Pneumonia is responsible for more childhood deaths than any other infectious disease worldwide, and early diagnosis and treatment are critical for short-term and long-term health outcomes for patients. One of the most common and cost effective means of diagnosing pneuomonia is through chest X-rays. 
 We are given the task of using X-Ray data from pediatric patients to create a model that can assist medical professionals in diagnosing and evaluating X-rays. 
 Correctly identifying and diagnosing Pneumonia and beginning treatment sooner can lead to faster recovery and better patient results. 
 Providing a “second opinion” to medical professionals after initial diagnosis can help prevent patients from being misdiagnosed and untreated. 
