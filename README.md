@@ -2,7 +2,7 @@
 
 Yuhkai Lin & Peter Burton
 
-Presentation: https://docs.google.com/presentation/d/1T57NZcnFOQudURk4JyrwX-yk_2hQXYutJAhIlV2DprA/edit#slide=id.p
+Link to our [Presentation](https://docs.google.com/presentation/d/1T57NZcnFOQudURk4JyrwX-yk_2hQXYutJAhIlV2DprA/edit#slide=id.p)
 
 ## Background & Business Problem
 
