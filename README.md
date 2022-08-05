@@ -14,8 +14,9 @@ Providing a “second opinion” to medical professionals after initial diagnosi
 ## Dataset
 
 Dataset from Mendeley: https://data.mendeley.com/datasets/rscbjbr9sj/2
-![image](./Images/Xraynormal.png)
-![image](./ImagesXraypne.png)
+![image](tree/main/Images/Xraynormal.png)
+![image](main/ImagesXraypne.png)
+![image](.main/ImagesXraypne.png)
 
 We are working from a dataset of  5,863 X-Ray images in two categories (Pneumonia/Normal). The Chest X-ray images were selected from pediatric patients ages one to five years old from Guangzhou Women and Children’s Medical Center. 
 The dataset of images was then screened and graded by two expert physicians and then verified by a third party for accuracy. 
