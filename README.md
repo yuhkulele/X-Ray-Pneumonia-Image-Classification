@@ -32,8 +32,11 @@ The dataset included a Train, Test, and Validation folder. Due to the low level 
 We preprocessed images for modeling by using ImageDataGenerator to process images, dividing each image by 255 to adjust for greyscale, converting the image size to 64x64, and augmenting the data. 
 We will use Convolutional Neural Network(CNN) algorithms to process and learn from thousands of images and predict from new X-rays if a patient has pneumonia 
 Key metrics in our model:
+
 •	Accuracy: Reliable predictions help medical professionals save time
+
 •	Recall: Ensuring that we do not have any false negatives, since these could result in poor health outcomes
+
 We will iterate through different models and choose a model that is able to give us the best results based around those parameters. 
 
 ## Dummy Classifier
@@ -43,7 +46,7 @@ Our first model is a dummy predictor model, that predicts based on the most freq
 
 ## Baseline Model
 
-Our next model was a baseline model using a Convolutional Neural Network(CNN). We created a basic CNN with only dense layers.  Compared to the dummy model, the baseline model was substantially better, with an accuracy of 89% and a recall of 90%. 
+Our next model was a baseline neural network model. We created a basic neural network with only dense layers.  Compared to the dummy model, the baseline model was substantially better, with an accuracy of 89% and a recall of 90%. 
 
 ## VGG19
 
