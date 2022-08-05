@@ -33,7 +33,7 @@ We will iterate through different models and choose a model that is able to give
 ## Dummy Classifier
 
 Our first model is a dummy predictor model, that predicts based on the most frequent class(in this case pneumonia). The accuracy of this model is 74.3%. Since Dummy Classifier always chooses the most common class, it has a recall of 100%. 
-![Dummy](Images/DummyConfusionMatrix.png)
+![Dummy](Images/DummyConfusion.png)
 
 ## Baseline Model
 
@@ -41,12 +41,25 @@ Our next model was a baseline model using a Convolutional Neural Network(CNN). W
 ![AccuracyLine](Images/AccuracyOverEpochs1.png)
 ![RecallLine](Images/RecallOverEpochs1.png)
 
-## Further CNN Models and VGG19
-
-
-## Results
+## Further CNN Models and Results
 
 ![AccuracyBar](Images/AccuracyBar.png)
 ![RecallBar](Images/RecallBar.png)
 
-When we compared each of our models, we decided to select CNN Model #8, based on its extremely high recall score on both test and validation data. Prioritizing recall will ensure that our model misclassifies as few patients as possible that are positive for Pneumonia. In fact, out of the 390 Pnuemonia cases in our test set of unseen data, it correctly diagnosed 386, a False-Negative rate of just 1%. 
+The two bar plots show our model's accuracy and recall scores on the validation data. The simple CNN model had the lowest metric scores which is good news since it means our iterative modeling process improved upon the simple CNN model. Accuracy for all models was similar, hovering above and below 93%. We believed that recall was a more important metric than accuracy. Recall is an indicator of false negative rates. Our focus with this modeling project is to provide a second opinion to doctors and ensure that no child with pneumonia is overlooked. It is more costly and dangerous if pneumonia-positive patients are overlooked and aren't able to receieve treatment quickly. The model is not meant to replace a doctor's diagnosis but rather provide a red flag so that a doctor can re-evaluate their initial diagnosis. When determining our best performing models, we wanted to pick out a model with a strong performance in recall.
+
+When we compared each of our models, we decided that CNN 6 is our strongest performing model. It has an accuracy of 92.3% and recall of 98.2% on the validation set. Prioritizing recall will ensure that our model misclassifies as few patients as possible that are positive for Pneumonia. In fact, out of the 390 Pnuemonia cases in our test set of unseen data, it correctly diagnosed 386, a False-Negative rate of just 1%. Overall accuracy of our model is hindered by its false-positive rate.
+
+If we were to continue to improve this model, our next steps would be to address overfitting and try increasing image resolution. We could try adding more regularization or dropout layers to hopefully improve this model's ability to predict on unseen data. Additionally, we could better train our model given more data or with higher quality data. Our model is trained on images of 64 x 64 resolution. Increasing resolution could provide more details for the model to learn from at the cost of computational cost. Our training data set consisted of 4,173 images. One way to better train our model is to provide more data to our model through further image augmentation or additional X-ray images.
+
+![ConfusionFinal](Images/ConfMat.png)
+
+The goal of this project was to construct a CNN model to classify chest X-rays of pediatric patients and identify which X-rays showed indicators of pneumonia. This model could be used as a "second opinion" for doctors with the intent of catching all penumonia-positive patients. Since childhood pneumonia can be deadly if not treated, we focused on a model with the lowest false-negative rate.
+
+Our final model had an overall accuracy of 86% and a recall of 0.98. Overfitting was one of the major hurdles in our modeling process which we addressed but did not manage eliminate from our models. On unseen data, our model correctly diagnosed 98% of all pneumonia-labeled X-rays. This model met our goal of reducing false-negative rate while improving on accuracy over previous model iterations.
+
+Next steps:
+
+Improve model with additional techniques to address overfitting
+Test model on images of different quality
+Identify if there are particular X-rays that doctors are consistently missing that a neural network might be able to assist with
