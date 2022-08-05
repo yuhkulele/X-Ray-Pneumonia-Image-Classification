@@ -1,8 +1,8 @@
-# X-Ray-Pneumonia-Image-Classification
+# Detecting Pediatric Pneumonia in Chest X-Rays Using Convolutional Neural Networks
 
 Yuhkai Lin & Peter Burton
 
-Link to our [Presentation](https://docs.google.com/presentation/d/1T57NZcnFOQudURk4JyrwX-yk_2hQXYutJAhIlV2DprA/edit#slide=id.p)
+Link to our [presentation](https://docs.google.com/presentation/d/1T57NZcnFOQudURk4JyrwX-yk_2hQXYutJAhIlV2DprA/edit#slide=id.p) slides
 
 ## Background & Business Problem
 
